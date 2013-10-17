@@ -1,0 +1,26 @@
+﻿生成启动时间为 2013/10/17 8:30:08。
+     1>项目“E:\Cloud\Client-Side\Client\Client\Client.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Release\Client.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         所有输出均为最新。
+       Link:
+         D:\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Cloud\Client-Side\Client\Release\Client.exe" /NOLOGO avcodec.lib avutil.lib swscale.lib Ws2_32.lib sdl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Client.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\Cloud\Client-Side\Client\Release\Client.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Cloud\Client-Side\Client\Release\Client.lib" /MACHINE:X86 Release\AudioStreamDecoder.obj
+         Release\Controller.obj
+         Release\DataTunnel.obj
+         Release\GameComponent.obj
+         Release\getopt.obj
+         Release\VideoStreamDecoder.obj
+         正在生成代码
+         已完成代码的生成
+         Client.vcxproj -> E:\Cloud\Client-Side\Client\Release\Client.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\Cloud\Client-Side\Client\Release\Client.exe;#1" /manifest Release\Client.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\Client.unsuccessfulbuild”。
+         正在对“Release\Client.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\Cloud\Client-Side\Client\Client\Client.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.66

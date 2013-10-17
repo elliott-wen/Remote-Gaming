@@ -1,0 +1,3 @@
+LIBRARY	"d3d8hook"
+EXPORTS
+	Direct3DCreate8 =Mine_Direct3DCreate8

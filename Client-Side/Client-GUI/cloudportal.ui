@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CloudPortal</class>
+ <widget class="QDialog" name="CloudPortal">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>760</width>
+    <height>395</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cloud Gaming</string>
+  </property>
+  <widget class="QPushButton" name="playpushButton">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>350</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>开始玩</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>350</y>
+     <width>81</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="imglabel_2">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>50</y>
+     <width>531</width>
+     <height>191</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resource.qrc">:/img/welcome.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>20</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>游戏介绍:</string>
+   </property>
+  </widget>
+  <widget class="QPlainTextEdit" name="gameTextEdit">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>531</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="readOnly">
+    <bool>true</bool>
+   </property>
+   <property name="plainText">
+    <string>Welcome to our cloud gaming client!</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="qualitycomboBox">
+   <property name="geometry">
+    <rect>
+     <x>313</x>
+     <y>350</y>
+     <width>211</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <item>
+    <property name="text">
+     <string>高清</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>标准</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>流畅</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>350</y>
+     <width>71</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>视频质量：</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>181</width>
+     <height>351</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>游戏列表:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="gamelistWidget">
+      <item>
+       <property name="text">
+        <string>Dota</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Directx测试程序</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>CloudPortal</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>653</x>
+     <y>370</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>678</x>
+     <y>383</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>

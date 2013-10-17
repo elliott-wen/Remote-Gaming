@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>dota.jpg</file>
+        <file>directx.jpg</file>
+        <file>welcome.jpg</file>
+    </qresource>
+</RCC>

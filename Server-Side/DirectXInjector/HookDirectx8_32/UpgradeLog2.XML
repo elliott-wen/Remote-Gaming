@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="proxydll">
+</Property><Property Name="解决方案文件" Value="E:\150w\HookDirectx8_32\proxydll.sln">
+</Property><Property Name="用户选项文件" Value="E:\150w\HookDirectx8_32\proxydll.suo">
+</Property><Property Name="Date" Value="2013年3月13日">
+</Property><Property Name="Time" Value="15:17">
+</Property><Property Name="日志号" Value="2">
+</Property></Properties><Event ErrorLevel="2" Project="" Source="proxydll.sln" Description="创建备份文件 E:\150w\HookDirectx8_32\proxydll.sln.old 时出错">
+</Event><Event ErrorLevel="2" Project="" Source="proxydll.suo" Description="创建备份文件 E:\150w\HookDirectx8_32\proxydll.suo.old 时出错">
+</Event><Event ErrorLevel="0" Project="proxydll" Source="proxydll.vcproj" Description="Converting project file 'E:\150w\HookDirectx8_32\proxydll.vcproj'.">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="MSB8012: $(TargetName) ('proxydll') does not match the Linker's OutputFile property value 'Debug\d3d8.dll' ('d3d8') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="MSB8012: $(TargetPath) ('E:\150w\HookDirectx8_32\Debug\proxydll.dll') does not match the Linker's OutputFile property value 'Debug\d3d8.dll' ('E:\150w\HookDirectx8_32\Debug\d3d8.dll') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="MSB8012: $(TargetName) ('proxydll') does not match the Linker's OutputFile property value 'Release\d3d8hook.dll' ('d3d8hook') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetName) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="proxydll" Source="proxydll.vcproj" Description="MSB8012: $(TargetPath) ('E:\150w\HookDirectx8_32\Release\proxydll.dll') does not match the Linker's OutputFile property value 'Release\d3d8hook.dll' ('E:\150w\HookDirectx8_32\Release\d3d8hook.dll') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="proxydll" Source="proxydll.vcproj" Description="Done converting to new project file 'E:\150w\HookDirectx8_32\proxydll.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="proxydll" Source="proxydll.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="proxydll.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="proxydll.sln" Description="Converted">
+</Event></UpgradeLog>

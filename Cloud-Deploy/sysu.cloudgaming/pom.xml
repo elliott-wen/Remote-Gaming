@@ -1,0 +1,53 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com</groupId>
+  <artifactId>sysu.cloudgaming</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>sysu.cloudgaming</name>
+  <url>http://maven.apache.org</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+  	<groupId>org.slf4j</groupId>
+  	<artifactId>slf4j-api</artifactId>
+  	<version>1.7.3</version>
+  </dependency>
+  <dependency>
+  	<groupId>log4j</groupId>
+  	<artifactId>log4j</artifactId>
+  	<version>1.2.17</version>
+  </dependency>
+  <dependency>
+  	<groupId>org.slf4j</groupId>
+  	<artifactId>slf4j-log4j12</artifactId>
+  	<version>1.7.3</version>
+  </dependency>
+
+  <dependency>
+  	<groupId>org.jdom</groupId>
+  	<artifactId>jdom</artifactId>
+  	<version>2.0.2</version>
+  </dependency>
+ 
+  <dependency>
+  	<groupId>org.apache.mina</groupId>
+  	<artifactId>mina-core</artifactId>
+  	<version>2.0.7</version>
+  </dependency>
+  <dependency>
+  	<groupId>com.alibaba</groupId>
+  	<artifactId>fastjson</artifactId>
+  	<version>1.1.28</version>
+  </dependency>
+
+
+  </dependencies>
+</project>
