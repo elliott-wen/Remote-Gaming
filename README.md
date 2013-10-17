@@ -51,6 +51,9 @@ Damned? Want to give up? Then our system can certainly solve it out?
 
 Let's introduce the architecture for the prototype system. Our system is basicly consisted of 2 parts (excluding the Cloud-Deploy parts). 
 
+-![alt](http://wenjiaqi.tk/wp-content/uploads/2013/10/1.png)
+
+
 The first part is server side. What is server side in charge of? Server side need to finish the following things.
 * Run the game
 * Grab the screenshot of the game
@@ -112,5 +115,5 @@ Here we take Warcraft III as a example. (Be aware of Firewall blocking ports)
 
 
 ##6. Measurement and Screenshot
-
-
+-![alt](http://wenjiaqi.tk/wp-content/uploads/2013/10/2.png)
+-![alt](http://wenjiaqi.tk/wp-content/uploads/2013/10/3.png)
