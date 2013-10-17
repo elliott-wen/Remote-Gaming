@@ -1,12 +1,12 @@
 ﻿
-The project is a cloud gaming prototype system (or called remote gaming system).
+##The project is a cloud gaming prototype system (or called remote gaming system).
 
 The following is the quick guide for compliing and deploying the system. If you have any problem, feel free to send email
 to jq.elliott.wen@gmail.com. If you want to contribute your code, you can just fork it or pull your request after sending mail to me. I would be glad if you join the development.
 
 Warning: Please obey the license from SDL and FFMPEG.
 
-1. Brief Introduction 
+##1. Brief Introduction 
 
 	With the development of cloud computing technology, cloud applications become very popular in the recent years. Cloud gaming is a promising application of the rapidly developing cloud computing technology. As for traditional games, most calculations are normally performed in client side. It's necessary for users to set up a powerful machine and install huge application packages advanced. In contrast, most calculations are performed in remote servers with cloud gaming technology. Under this case, it's easy for users to play games without worrying about the performance of machine.
 
@@ -18,7 +18,7 @@ Warning: Please obey the license from SDL and FFMPEG.
 
 The following word is from oral defense for my undergraduation (bacheor degree)
 
-2. Brief Review
+##2. Brief Review
 
 Why we need such system? Have you ever meet such circumstance that sometimes we want to play a wonderful 3D game in a old slow computer? So what we should do? The most straight forward way is to buy a new computer. XD! Expensive? 
 Suddenly, it occurs to you mind that the computer in you office is very powerful and you could play the game in it. But you could not stay in the office all along the holidays. Then you may think about using VNC or Remote Desktop Technology, which enables you to use a old computer to control the remote computer.
@@ -32,7 +32,7 @@ You are so glad now and try the technology above. Then you will find that the pe
 
 Damned? Want to give up? Then our system can certainly solve it out?
 
-3. System Architecture
+##3. System Architecture
 
 Let's introduce the architecture for the prototype system. Our system is basicly consisted of 2 parts (excluding the Cloud-Deploy parts). 
 
@@ -71,7 +71,7 @@ Nothing to talk about it. We could derive the code from VNC or other remote cont
 The other part is client part. The client just receives the stream data from server, decode the stream, display video and audio to the user, collect user's action (eg. mouse move, mouse click) and send back to the server.
 
  
-4. Compile It
+##4. Compile It
 
 It's very easy to compile the system for I have included all required file in github. You just need a Windows(X86 or X64 would be okay.) and Visual Studio 2010. 
 
@@ -84,7 +84,7 @@ Find the project in Server-Side/DirectXProxy. Compile it.
 4.3 Compile Client Core
 Find the project in Client-Side/Client. Compile it.
 
-5. Run It
+##5. Run It
 Here we take Warcraft III as a example. (Be aware of Firewall blocking ports)
 
 5.1 Copy Proxy DLL into Game Directory. For Warcraft III is a directX9 Game. You should copy d3d9.dll from Project Server-Side/DirectXProxy into Warcraft III Game Directory.
@@ -96,6 +96,6 @@ Here we take Warcraft III as a example. (Be aware of Firewall blocking ports)
 5.4 Play it.
 
 
-6. Measurement and Screenshot
+##6. Measurement and Screenshot
 
 
