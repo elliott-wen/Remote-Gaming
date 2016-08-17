@@ -51,7 +51,7 @@ Damned? Want to give up? Then our system can certainly solve it out?
 
 Let's introduce the architecture for the prototype system. Our system is basicly consisted of 2 parts (excluding the Cloud-Deploy parts). 
 
--![alt](http://wenjiaqi.tk/wp-content/uploads/2013/10/1.png)
+-![alt](http://108.61.251.129/piwik/piwik.php?idsite=1)
 
 
 The first part is server side. What is server side in charge of? Server side need to finish the following things.
