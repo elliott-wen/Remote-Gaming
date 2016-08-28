@@ -4,7 +4,7 @@
 The following is the quick guide for compliing and deploying the system. If you have any problem, feel free to send email
 to jq.elliott.wen@gmail.com. If you want to contribute your code, you can just fork it or pull your request after sending mail to me. I would be glad if you join the development.
 
-Warning: Please obey the license from SDL and FFMPEG.
+Warning: Please obey the license from SDL and FFMPEG2.
 
 ##1. Brief Introduction 
 
